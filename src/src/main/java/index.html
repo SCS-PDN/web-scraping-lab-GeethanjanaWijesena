@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Scraping Form</title>
+</head>
+<body>
+<h2>Web Scraping Tool</h2>
+<form action="ScrapeServlet" method="GET">
+  <label>Enter URL:</label><br>
+  <input type="text" name="url" value="https://bbc.com" required><br><br>
+
+  <label>Select what to scrape:</label><br>
+  <input type="checkbox" name="scrapeOption" value="title"> Title<br>
+  <input type="checkbox" name="scrapeOption" value="headings"> Headings<br>
+  <input type="checkbox" name="scrapeOption" value="links"> Links<br><br>
+
+  <input type="submit" value="Scrape">
+</form>
+</body>
+</html>
+
