@@ -1,0 +1,19 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>ScrapeServlet</servlet-name>
+        <servlet-class>ScrapeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ScrapeServlet</servlet-name>
+        <url-pattern>/ScrapeServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DownloadCSVServlet</servlet-name>
+        <servlet-class>DownloadCSVServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DownloadCSVServlet</servlet-name>
+        <url-pattern>/DownloadCSVServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
